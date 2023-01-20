@@ -55,7 +55,7 @@ Execute the ipynb file to fine tune the model with the stance dataset and testin
 
 
 ### Pseudo Labels for Unlabeled dataset
-The clustering method introduced by Li et. al [[1]](#1) in _Unsupervised Belief Representation Learning with
+The clustering method introduced by Li et al. [[1]](#1) in _Unsupervised Belief Representation Learning with
 Information-Theoretic Variational Graph Auto-Encoders_ is used to generate pseudo labels for the unlabeled datasets used in our experiments.
 
 

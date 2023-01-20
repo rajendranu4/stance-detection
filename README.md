@@ -54,6 +54,13 @@ Update the following variables in the downstream_StD/fine_tune_model_contrastive
 Execute the ipynb file to fine tune the model with the stance dataset and testing against the perturbed test data
 
 
+### Pseudo Labels for Unlabeled dataset
+The clustering method introduced by Li et. al<sup>1</sup. in Unsupervised Belief Representation Learning with
+Information-Theoretic Variational Graph Auto-Encoders is used to generate pseudo labels for the unlabeled datasets used in our experiments.
+
+
 ### References & Credits
 [GitHub - JohnGiorgi/DeCLUTR: "DeCLUTR: Deep Contrastive Learning for Unsupervised Textual Representations". ](https://github.com/JohnGiorgi/DeCLUTR)
+<sup>1</sup> . Li et al., “Unsupervised belief representation learning with informationtheoretic variational graph auto-encoders,” 2022. doi: 10.1145/3477495.3532072.
+[Online]. Available: https://doi.org/10.1145%2F3477495.3532072.
 

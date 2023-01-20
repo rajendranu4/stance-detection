@@ -1,4 +1,4 @@
-# Exploration of Contrastive Learning Strategies toward Robust Stance Detection Systems
+# Exploration of Contrastive Learning Strategies toward more Robust Stance Detection Systems
 
 Following are the steps to successfully learn representations from stance examples and leverage the learned sentence representations in the Stance Detection downstream task.
 

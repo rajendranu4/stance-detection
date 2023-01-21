@@ -22,7 +22,8 @@ perturb_perc = sys.argv[3]
 if model_type == 'baseline':
     tokenizer = AutoTokenizer.from_pretrained('distilroberta-base')
 elif model_type == 'contrastive':
-    pretrained_model_tokenizer_path = r"C:\Users\rajen\Documents\GitHub\DeCLUTR\output_transformers_e6"
+    #give the path of the pretrained model tokenizer
+    pretrained_model_tokenizer_path = r""
     tokenizer = AutoTokenizer.from_pretrained(pretrained_model_tokenizer_path)
 else:
     print("Model type not recognized")
@@ -145,8 +146,8 @@ def create_adversarial_negation(samples, perturb_indices, MAX_SEQ_LEN=512):
 
     return samples
 
-
-test_set_path = r"C:\Users\rajen\Documents\GitHub\DeCLUTR\path\to\your\dataset"
+#give test set file path
+test_set_path = r""
 test_set_file = "debateforum_test"
 test_set_file_extension = ".csv"
 

@@ -1,7 +1,8 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
-data_file_path = r"C:\Users\rajen\Documents\GitHub\DeCLUTR\path\to\your\dataset"
+# mention the path of data file
+data_file_path = r""
 data_file = "\debateforum_gayrights"
 data_file_type = ".csv"
 train_data_file = data_file_path + data_file + r"_train" + data_file_type
